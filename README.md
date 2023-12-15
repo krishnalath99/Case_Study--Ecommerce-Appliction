@@ -9,6 +9,6 @@ The Ecommerce Application aims to create a comprehensive system for managing sho
 
 -- Go To the "Creating Database, Tables and Inserting Values.sql" file and execute all the queries in the file.     
 
--- Now, go to the "DBPropertyUtil.py" file in the "UTIL" folder and change the host , user, password (and if needed the database name) as per your MySQL.     
+-- Now, go to the "DBPropertyUtil.py" file in the "util" folder and change the host , user, password (and if needed the database name) as per your MySQL.     
 
 -- Finally go to the "main.py" file in the "MAIN" folder and run it. You are good to go.      
