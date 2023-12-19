@@ -1,8 +1,8 @@
 import mysql.connector as connection
 
-from util.DBConnUtil import Dbc
+from util.DBConnUtil import DbC
 
-class OrderProcessorRepository(Dbc):
+class OrderProcessorRepository(DbC):
     def __init__(self):
         pass
 

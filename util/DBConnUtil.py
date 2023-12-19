@@ -2,7 +2,7 @@ from util.DBPropertyUtil import PropertyUtil
 
 import mysql.connector as connection
 
-class Dbc():
+class DbC():
     def __init__(self):
         pass
 

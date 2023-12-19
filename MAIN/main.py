@@ -1,6 +1,10 @@
 import mysql.connector as connection
 
-from util.DBConnUtil import Dbc
+import sys
+
+sys.path.insert(1, 'C:/Users/91910/Desktop/Hexaware Training/Technical Program/Python/Case Study/ECOMMERCE Application')
+
+from util.DBConnUtil import DbC
 
 import mysql.connector as connection
 
@@ -11,7 +15,7 @@ from dao.ServiceRepository import OrderProcessorRepository
 
 from Exceptions.myExceptions import CustomerNotFoundException, ProductNotFoundException, OrderNotFoundException
 
-class EcomApp(Dbc):
+class EcomApp(DbC):
     def __init__(self):
         pass
 
